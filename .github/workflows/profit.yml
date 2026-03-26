@@ -10,38 +10,133 @@ jobs:
         run: echo Hello, world!
       - name: Wait
         run: sleep 5
-  profit:
+  profit-a:
     if: ${{ false }}
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        jobs:
-          - a
-          - b
-          - c
-          - d
-          - e
-          - f
-          - g
-          - h
-          - i
-          - j
-          - k
-          - l
-          - m
-          - n
-          - o
-          - p
-          - q
-          - r
-          - s
-          - t
-          - u
-          - v
-          - w
-          - x
-          - y
-          - z
+    steps:
+      - run: noop
+  profit-b:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-c:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-d:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-e:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-f:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-g:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-h:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-i:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-j:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-k:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-l:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-m:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-n:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-o:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-p:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-q:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-r:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-s:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-t:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-u:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-v:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-w:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-x:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-y:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: noop
+  profit-z:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
     steps:
       - run: noop
