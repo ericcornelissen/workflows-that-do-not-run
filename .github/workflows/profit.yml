@@ -10,133 +10,33 @@ jobs:
         run: echo Hello, world!
       - name: Wait
         run: sleep 5
-  profit-a:
+  profit-a: &profit-job
     if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
       - run: noop
-  profit-b:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-c:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-d:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-e:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-f:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-g:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-h:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-i:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-j:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-k:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-l:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-m:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-n:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-o:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-p:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-q:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-r:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-s:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-t:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-u:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-v:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-w:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-x:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-y:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
-  profit-z:
-    if: ${{ false }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: noop
+  profit-b: *profit-job
+  profit-c: *profit-job
+  profit-d: *profit-job
+  profit-e: *profit-job
+  profit-f: *profit-job
+  profit-g: *profit-job
+  profit-h: *profit-job
+  profit-i: *profit-job
+  profit-j: *profit-job
+  profit-k: *profit-job
+  profit-l: *profit-job
+  profit-m: *profit-job
+  profit-n: *profit-job
+  profit-o: *profit-job
+  profit-p: *profit-job
+  profit-q: *profit-job
+  profit-r: *profit-job
+  profit-s: *profit-job
+  profit-t: *profit-job
+  profit-u: *profit-job
+  profit-v: *profit-job
+  profit-w: *profit-job
+  profit-x: *profit-job
+  profit-y: *profit-job
+  profit-z: *profit-job
