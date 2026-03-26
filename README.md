@@ -1,4 +1,4 @@
-![](./demo-1.png)
+![](./preview.png)
 
 ## What?
 
